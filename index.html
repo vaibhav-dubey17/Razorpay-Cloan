@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/feather-icons"></script>
+   <title>Razorpay</title>
+   <style>
+      .animation{
+         animation: 10s infinite linear moveimage;
+      }
+      @keyframes moveimage {
+         0%{
+            top:0;
+         }
+         100%{
+            top:-50%
+         }
+      }
+   
+   </style>
+</head>
+
+<body>
+  <div class="overflow-x-hidden relative w-full">
+    <!-- part-1 -->
+    <nav class="bg-deepBlue flex ">
+      <div class="relative w-[1080px] mx-auto flex items-center justify-evenly">
+         <a href="" class="cursor-pointer py-7 pr-7"><img src="image.png" height="10px" width="125px"> </a>
+         <ul class=" flex space-x-5">
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative grouphidden  hidden lg:block ">
+               <a href="#">Payments</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Banking</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Corparate Card</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Payroll</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Resorces</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Support</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <li
+               class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-200 relative group hidden lg:block ">
+               <a href="#">Pricing</a>
+               <div
+                  class="absolute bottom-0 w-full h-1 bg-lightBlue300 hidden group-hover:block transition-all duration-200">
+               </div>
+            </li>
+            <div class="flex space-x-6 ">
+               <!-- <img src="ind.png" height="20px" width="28px"> -->
+               <button class="py-3 px-5 font-mullish text-white  font-bold  cursor-pointer">Log in </button>
+               <button class="py-3 px-5 font-mullish text-lightBlue300  font-bold cursor-pointer hidden lg:block ">Sine Up</button>
+
+         </ul>
+      </div>
+   </nav>
+   <!-- part-2 -->
+   <section class="relative bg-deepBlue">
+
+      <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto">
+         <div class="space-y-5">
+            <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">Power your finance,grow your
+               business </h1>
+            <div class="h-1 w-6 bg-green-600"></div>
+            <p class="text-white opacity-60 font-mullish text-[18px] leading-70"> Accept payment from customers.
+               Automate payouts to vendors & employess. Never run of working capital Lorem ipsum dolor sit, amet
+               consectetur adipisicing elit. Nemo, officia.</p>
+            <button class="text-white bg-lightBlue300  hover:bg-lightBlue500 rounded-lg py-[14px] px-[18px]"> Sine Up
+               Now </button>
+         </div>
+         <img src="new.png" class="max-w-[680px]"> 
+      </div>
+   </section>
+   <!-- part-3 -->
+   <section class="relative mt-[60px]">
+      <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+         <h1 class="font-extrabold font-mullish text-center text-[28px] leading-10 m-w-[500px]"> Accept Payment with
+            Razorpay</h1>
+         <div class="w-6 h-1 bg-green-400 mx-auto mt-3"></div>
+         <div class="w-full bg-white flex rounded-md relative p-10 py-12 m-h-[520px] border">
+            <div class="flex flex-col justify-between w-full">
+               <h3 class="font-mullish leading-10 font-bold text-[28px] max-w-[500px]">Supercharge your business with
+                  the all powerful span <span class="text-lightBlue300">Payment Gatway </span> </h3>
+               <br>
+               <ul class="space-y-3">
+                  <li class="font-mullish flex item-center spex-x-2">
+                     <i data-feather="check" class="text-green-400"></i><span>100+ Payment Methods </span>
+                  </li>
+                  <li class="font-mullish flex item-center spex-x-2"> <i data-feather="check"
+                        class="text-green-400"></i><span>Industry Leading Success Rate </span></li>
+                  <li class="font-mullish flex item-center spex-x-2">
+                     <i data-feather="check" class="text-green-400"></i><span>Easy to Integrate </span>
+                  </li>
+                  <li class="font-mullish flex item-center spex-x-2"><i data-feather="check"
+                        class="text-green-400"></i><span>Superior Checkout Experience </span>
+                  <li class="font-mullish flex item-center spex-x-2"><i data-feather="check"
+                        class="text-green-400"></i><span>Instant Settlement From Day 1 </span></li>
+                  <li class="font-mullish flex item-center spex-x-2"><i data-feather="check"
+                        class="text-green-400"></i><span>In-Depth Reporting And Insights </span> </li>
+               </ul>
+               <br>
+               <div class="flex flex-col-reverse md:flex-row items-center space-x-4 mt-2">
+                  <button
+                     class="text-white bg-lightBlue300 w-full  md:w-fit hover:bg-lightBlue500 rounded-lg py-[14px] px-[18px] ">Sine
+                     UP Now </button>
+                  <div class="flex items-center cursor-pointer group">
+                     <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+                     </a>
+                     <i data-feather="chevron-right"
+                        class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+                  </div>
+               </div>
+            </div>
+            <img src="asset.png" class="max-w-[550px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
+         </div>
+   </section>
+
+   <!-- NEW -->
+
+   <div class="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-10 ml-4 mr-8">
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col md:flex-row justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+         <img src="">
+         <div class="z-[100] absolute h-full w-full flex-col justify-between pl-5 py-6 pr-8">
+            <div>
+               <h3 class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.3]">Payment Link </h3>
+               <p class="font-mullish text-grayText mt-6">Share payment link via an email, SMS, messenger, chatbot etc.
+                  and get paid immediately. Accepting payments from customers is now just a link away.</p>
+            </div>
+            <br>
+            <div class="flex items-center cursor-pointer group">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500  group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+  <!-- NEW  -->
+
+   <section class="relative mt-[30px] pt-6 w-full">
+    <div class="absolute dark-bg w-[1800px] h-[2997px] md:h-[1700px] ">
+      <svg class=" absolute " width="3000px" height="2997px " fill="none" xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none">
+      <path d="M3001 264.5L0 0v1597l3001-507.5v-825z" fill="#181C2E"></path>
+      <path d="M897.5 1240.5l658 94.5L272 1552l625.5-311.5z" fill="#F4F8FF"></path>
+   </svg>
+    </div>
+      <div class="relative  max-w-[1070px] mx-auto pt-4 py-6 w-full h-full ">
+         <h1 class="font-extrabold font-mullish text-center text-[28px] leading-10 m-w-[500px] mt-28 text-white"> Accept
+            Payment with
+            Razorpay</h1>
+         <div class="w-6 h-1 bg-green-400 mx-auto mt-3"></div>
+         <div class="w-full flex rounded-md relative p-10 py-12 m-h-[520px] border border-slate-700 mt-11">
+            <div class="flex flex-col justify-between w-full">
+               <h3 class="font-mullish leading-10 font-bold text-[28px] max-w-[500px] text-white ">Manage your company’s
+                  finances and supercharge your business banking with <svg viewBox="0 0 1896 401" focusable="false"
+                     class="chakra-icon css-1xy62lf inline" xmlns="http://www.w3.org/2000/svg" width="160px"
+                     height="32px">
+                     <path fill="#3395FF" d="M122.63 105.7l-15.75 57.97 90.15-58.3-58.96 219.98 59.88.05L285.05.48" />
+                     <path
+                        d="M25.6 232.92L.8 325.4h122.73l50.22-188.13L25.6 232.92m426.32-81.42c-3 11.15-8.78 19.34-17.4 24.57-8.6 5.22-20.67 7.84-36.25 7.84h-49.5l17.38-64.8h49.5c15.56 0 26.25 2.6 32.05 7.9 5.8 5.3 7.2 13.4 4.22 24.6m51.25-1.4c6.3-23.4 3.7-41.4-7.82-54-11.5-12.5-31.68-18.8-60.48-18.8H324.4l-66.5 248.1h53.67l26.8-100h35.2c7.9 0 14.12 1.3 18.66 3.8 4.55 2.6 7.22 7.1 8.04 13.6l9.58 82.6h57.5l-9.32-77c-1.9-17.2-9.77-27.3-23.6-30.3 17.63-5.1 32.4-13.6 44.3-25.4a92.6 92.6 0 0 0 24.44-42.5m130.46 86.4c-4.5 16.8-11.4 29.5-20.73 38.4-9.34 8.9-20.5 13.3-33.52 13.3-13.26 0-22.25-4.3-27-13-4.76-8.7-4.92-21.3-.5-37.8 4.42-16.5 11.47-29.4 21.17-38.7 9.7-9.3 21.04-13.95 34.06-13.95 13 0 21.9 4.5 26.4 13.43 4.6 8.97 4.7 21.8.2 38.5zm23.52-87.8l-6.72 25.1c-2.9-9-8.53-16.2-16.85-21.6-8.34-5.3-18.66-8-30.97-8-15.1 0-29.6 3.9-43.5 11.7-13.9 7.8-26.1 18.8-36.5 33-10.4 14.2-18 30.3-22.9 48.4-4.8 18.2-5.8 34.1-2.9 47.9 3 13.9 9.3 24.5 19 31.9 9.8 7.5 22.3 11.2 37.6 11.2a82.4 82.4 0 0 0 35.2-7.7 82.11 82.11 0 0 0 28.4-21.2l-7 26.16h51.9L709.3 149h-52zm238.65 0H744.87l-10.55 39.4h87.82l-116.1 100.3-9.92 37h155.8l10.55-39.4h-94.1l117.88-101.8m142.4 52c-4.67 17.4-11.6 30.48-20.75 39-9.15 8.6-20.23 12.9-33.24 12.9-27.2 0-36.14-17.3-26.86-51.9 4.6-17.2 11.56-30.13 20.86-38.84 9.3-8.74 20.57-13.1 33.82-13.1 13 0 21.78 4.33 26.3 13.05 4.52 8.7 4.48 21.67-.13 38.87m30.38-80.83c-11.95-7.44-27.2-11.16-45.8-11.16-18.83 0-36.26 3.7-52.3 11.1a113.09 113.09 0 0 0-41 32.06c-11.3 13.9-19.43 30.2-24.42 48.8-4.9 18.53-5.5 34.8-1.7 48.73 3.8 13.9 11.8 24.6 23.8 32 12.1 7.46 27.5 11.17 46.4 11.17 18.6 0 35.9-3.74 51.8-11.18 15.9-7.48 29.5-18.1 40.8-32.1 11.3-13.94 19.4-30.2 24.4-48.8 5-18.6 5.6-34.84 1.8-48.8-3.8-13.9-11.7-24.6-23.6-32.05m185.1 40.8l13.3-48.1c-4.5-2.3-10.4-3.5-17.8-3.5-11.9 0-23.3 2.94-34.3 8.9-9.46 5.06-17.5 12.2-24.3 21.14l6.9-25.9-15.07.06h-37l-47.7 176.7h52.63l24.75-92.37c3.6-13.43 10.08-24 19.43-31.5 9.3-7.53 20.9-11.3 34.9-11.3 8.6 0 16.6 1.97 24.2 5.9m146.5 41.1c-4.5 16.5-11.3 29.1-20.6 37.8-9.3 8.74-20.5 13.1-33.5 13.1s-21.9-4.4-26.6-13.2c-4.8-8.85-4.9-21.6-.4-38.36 4.5-16.75 11.4-29.6 20.9-38.5 9.5-8.97 20.7-13.45 33.7-13.45 12.8 0 21.4 4.6 26 13.9 4.6 9.3 4.7 22.2.28 38.7m36.8-81.4c-9.75-7.8-22.2-11.7-37.3-11.7-13.23 0-25.84 3-37.8 9.06-11.95 6.05-21.65 14.3-29.1 24.74l.18-1.2 8.83-28.1h-51.4l-13.1 48.9-.4 1.7-54 201.44h52.7l27.2-101.4c2.7 9.02 8.2 16.1 16.6 21.22 8.4 5.1 18.77 7.63 31.1 7.63 15.3 0 29.9-3.7 43.75-11.1 13.9-7.42 25.9-18.1 36.1-31.9 10.2-13.8 17.77-29.8 22.6-47.9 4.9-18.13 5.9-34.3 3.1-48.45-2.85-14.17-9.16-25.14-18.9-32.9m174.65 80.65c-4.5 16.7-11.4 29.5-20.7 38.3-9.3 8.86-20.5 13.27-33.5 13.27-13.3 0-22.3-4.3-27-13-4.8-8.7-4.9-21.3-.5-37.8 4.4-16.5 11.42-29.4 21.12-38.7 9.7-9.3 21.05-13.94 34.07-13.94 13 0 21.8 4.5 26.4 13.4 4.6 8.93 4.63 21.76.15 38.5zm23.5-87.85l-6.73 25.1c-2.9-9.05-8.5-16.25-16.8-21.6-8.4-5.34-18.7-8-31-8-15.1 0-29.68 3.9-43.6 11.7-13.9 7.8-26.1 18.74-36.5 32.9-10.4 14.16-18 30.3-22.9 48.4-4.85 18.17-5.8 34.1-2.9 47.96 2.93 13.8 9.24 24.46 19 31.9 9.74 7.4 22.3 11.14 37.6 11.14 12.3 0 24.05-2.56 35.2-7.7a82.3 82.3 0 0 0 28.33-21.23l-7 26.18h51.9l47.38-176.7h-51.9zm269.87.06l.03-.05h-31.9c-1.02 0-1.92.05-2.85.07h-16.55l-8.5 11.8-2.1 2.8-.9 1.4-67.25 93.68-13.9-109.7h-55.08l27.9 166.7-61.6 85.3h54.9l14.9-21.13c.42-.62.8-1.14 1.3-1.8l17.4-24.7.5-.7 77.93-110.5 65.7-93 .1-.06h-.03z" />
+                  </svg></h3>
+               <br>
+               <ul class="space-y-3">
+                  <li class="font-mullish flex item-center spex-x-2 text-blue-200">
+                     <i data-feather="check" class="text-green-400"></i><span> Open a fully digital current account
+                     </span>
+                  </li>
+                  <li class="font-mullish flex item-center spex-x-2 text-blue-200"> <i data-feather="check"
+                        class="text-green-400"></i> <span> Automate payables & compliment payments</span></li>
+                  <li class="font-mullish flex item-center spex-x-2 text-blue-200">
+                     <i data-feather="check" class="text-green-400"></i><span>Easy to Integrate </span>
+                  </li>
+                  <li class="font-mullish flex item-center spex-x-2 text-blue-200"><i data-feather="check"
+                        class="text-green-400"></i><span>Simplify and track spends with Corporate cards</span>
+                  <li class="font-mullish flex item-center spex-x-2 text-blue-200"><i data-feather="check"
+                        class="text-green-400"></i><span>View financial insights at a glance</span></li>
+               </ul>
+               <br>
+               <div class="flex flex-col-reverse md:flex-row items-center space-x-4 mt-2 w-full">
+                  <button
+                     class="relative bg-lightBlue300 flex place-content-center md:justify-start items-center text-white  py-[15px] 
+ pl-4 pr-16  md:pr[90px] md:px[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 self-stretch md:w-fit">Sine
+                     UP
+                     <div class="w-7 h-[60px] bg-green-400 absolute right-4 skew-x-[20deg] justify-center items-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                           class="bi bi-arrow-right mt-5 pl-1" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd"
+                              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                        </svg>
+                        </svg>
+                     </div>
+                  </button>
+                  <div class="flex items-center cursor-pointer group">
+                     <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+                     </a>
+                     <i data-feather="chevron-right"
+                        class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+                  </div>
+               </div>
+            </div>
+
+            <img src="asset 42.png" class="max-w-[550px] absolute right-0 bottom-0 hidden md:max-w-[400px] lg:max-w-[550px] md:block lg:block">
+         </div>
+          
+
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mt-16">
+            <div class=" border border-slate-700 py-3 ml-3 mr-3">
+               <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-white mt-3"> Current Account
+               </h2>
+               <p class=" py-3 px-2 font-mullish mt-4 text-blue-200 text-center">Current Account For Fast Growing
+                  Business, Supported by the Best in Technology</p>
+               <div class="flex items-center cursor-pointer group mt-3 pl-7">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ">Know More
+                  </a>
+                  <i data-feather="chevron-right"
+                     class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+               </div>
+            </div>
+            <div class="py-5 px-4 border border-slate-700 ml-3 mr-3">
+               <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-white "> Current Account
+               </h2>
+               <p class=" py-3 px-2 font-mullish mt-4 text-blue-200 text-center ">Current Account For Fast Growing
+                  Business, Supported by the Best in Technology</p>
+               <div class="flex items-center cursor-pointer group mt-4 pl-7">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+                  </a>
+                  <i data-feather="chevron-right"
+                     class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+               </div>
+            </div>
+            <div class="py-5  border border-slate-700 ml-3 mr-3">
+               <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-white "> Current Account
+               </h2>
+               <p class=" py-3 px-2 font-mullish mt-4 text-blue-200 text-center ">Current Account For Fast Growing
+                  Business, Supported by the Best in Technology</p>
+               <div class="flex items-center cursor-pointer group mt-4 pl-7">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText">Know More
+                  </a>
+                  <i data-feather="chevron-right"
+                     class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+               </div>
+            </div>
+         </div>
+         <div class=" mt-16 border border-slate-700 hidden md:flex-col lg:flex-row md:hidden lg:flex">
+            <p class="font-mullish leading-[1.2] text-[23px] text-white my-9 ml-4"> Check out the live demo to learn how
+               RazorpayX works.<b> No sign-up required! </b></p>
+            <button
+               class="text-white bg-lightBlue300 w-fit hover:bg-lightBlue500 rounded-lg py-[14px] px-[18px] ml-10 my-4  ">Check
+               Out The Demo </button>
+      </div>
+   </section>
+   <!-- NEW -->
+
+   <section class=" relative bg-white md:mt-[400px] mt-[100px] w-11/12 mx-auto">
+      <div class=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+         <div class="relative  flex items-center   bg-white">
+            <h2 class="text-[33px] font-mullish font-extrabold text-4xl  text-center my-2 leading-[1.4] ml-16"> New in the <br>
+<span class="text-blue-800 mt-1">Razorpay</span>
+<br> Product Suite</h2>  
+         </div>
+         <div class="py-5 hover:scale-110 transition-all duration-200 border-2 border-slate-100  bg-white">
+            <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-black "> Current Account </h2>
+            <p class="  py-3 px-16 font-mullish mt-4 text-blue-500  ">Current Account For Fast Growing
+               Business, Supported by the Best in Technology</p>
+            <div class="flex  cursor-pointer group mt-4 ">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ml-24">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+         <div class="py-5 hover:scale-110 transition-all duration-200 ">
+            <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-black "> Current Account </h2>
+            <p class=" py-3 px-16 font-mullish mt-4 text-blue-500 text-center ">Current Account For Fast Growing
+               Business, Supported by the Best in Technology</p>
+            <div class="flex items-center cursor-pointer group mt-4 pl-7">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ml-24">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+         <div class="py-5 hover:scale-110 transition-all duration-200 ">
+            <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-black "> Current Account </h2>
+            <p class=" py-3 px-16 font-mullish mt-4 text-blue-500 text-center ">Current Account For Fast Growing
+               Business, Supported by the Best in Technology</p>
+            <div class="flex items-center cursor-pointer group mt-4 pl-7">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ml-24">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+         <div class="py-5 hover:scale-110 transition-all duration-200 ">
+            <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-black "> Current Account </h2>
+            <p class=" py-3 px-16 font-mullish mt-4 text-blue-500 text-center ">Current Account For Fast Growing
+               Business, Supported by the Best in Technology</p>
+            <div class="flex items-center cursor-pointer group mt-4 pl-7">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ml-24">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+         <div class="py-5 hover:scale-110 transition-all duration-200">
+            <h2 class="leading-[1.2] text-[20px] font-mullish font-bold text-center text-black "> Current Account </h2>
+            <p class=" py-3 px-16 font-mullish mt-4 text-blue-500 text-center items-center">Current Account For Fast Growing
+               Business, Supported by the Best in Technology</p>
+            <div class="flex items-center cursor-pointer group mt-4 pl-7">
+               <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayText ml-24">Know More
+               </a>
+               <i data-feather="chevron-right"
+                  class="w-5 h-5 text-lightBlue500 group-hover:text-gratBlue transition-all duration-200"></i>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- NEW -->
+
+   <section  class="relative">
+      <img src="white.png" class="  w-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="1655px" height="775px"  class=" absolute h-[3500px] md:h-[775px] " viewBox="0 0 1665 665" preserveAspectRatio="none"><defs><linearGradient x1="-9.76013358%" y1="100%" x2="93.4135454%" y2="47.0457337%" id="linearGradient-1"><stop stop-color="#023EA4" offset="0%"></stop><stop stop-color="#2377C9" offset="100%"></stop></linearGradient></defs><polygon fill="#F4F8FF" transform="translate(832.500000, 274.000000) scale(1, -1) translate(-832.500000, -274.000000) " points="0 3 1665 3 1665 346.491263 117.611298 545 0 475.825616"></polygon><polygon fill="url(#linearGradient-1)" points="0 124.293036 1665 0 1665 561.957836 1550.97584 665 0 601.957836"></polygon></svg>
+      <div class="relative mt-[130px]"> 
+         <h1 class="font-mullish font-bold text-center text-[30px] text-white font-mullish00"> Features </h1>
+           <div class="w-6 h-1 bg-green-400 mx-auto mt-3"></div>
+           <br>
+           <p class="mx-12 text-center text-white font-mullish">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-2 text-white px-20">
+         <div class="relative px-3 py-3 hidden md:block">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3 hidden md:block">
+            <h1 class="font-mullish text-[22px] py-1 px-5  ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <!-- <div class="relative  hidden sm:block"> 
+            <h1 class="font-mullish font-bold text-center text-[30px] text-white font-mullish00"> Features </h1>
+              <p class="py-3 px-6 text-white font-mullish">Empower your business with all the right tools to accept online payments and provide the best customer experience</p>
+         </div> -->
+         <div class="relative px-3 py-3 ">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+         <div class="relative px-3 py-3">
+            <h1 class="font-mullish text-[22px] py-1 px-5 ">Instant Activation</h1>
+            <p class="font-mullish py-3 px-6">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation</p>
+         </div>
+      </div>  
+   </section>
+  
+    <!-- NEW -->
+
+   <section class="relative pt-32 pb-24 bg-[#f5f8fe] ">
+      <div class=" mx-auto flex flex-col  md:flex-row  max-w-[1080px]">
+         <div class="font-mullish w-full flex flex-col  md:max-w-[calc(100%-500px)]   mb-9">
+            <h1 class=" font-bold text-2xl text-deepBlueHead"> Join the 50,00,000+ business using Rozorpay </h1>
+            <div class="w-6 bg-green-500 h-1 mt-1 "></div>
+            <p class="font-mullish opacity-80">We make it for you to  focous on building great products while we work on Simplifying your payments. Become one of us by joining thousands of our happy user and Simplify the online payment experience for your coustomer.</p>
+     <p class="font-mullish mt-6 mb-5 opacity-80">Focous on your buisness while we handle the complexities of payment for you </p>
+         </div>
+   <div class="h-[400px] w-[340px] relative overflow-y-hidden mx-auto">
+   <div style="background: linear-gradient  (100deg ,#f4f8ff, #fff0)" class="absolute w-full top-0 h-[150px] "></div>
+   <img src="merchants.png" class=" absolute w-[300px] px-2 animation">
+   </div>
+   <div  style="background: linear-gradient(180deg,#f4f8ff , #fff0)"  class=" absolute w-full h-[150px] bottom-0 "> </div>
+      </div>
+   </section>
+   
+    <!-- NEW -->
+  
+    <section class="relative ">
+      <div class=" flex flex-col items-center mx-auto font-mullish">
+         <h1 class="font-bold"> An Experience </h1>
+         <h1 class="font-bold">People Love to Talk About </h1>
+         <div class="flex flex-row mt-3">
+         <div class="w-1 bg-green-400 h-1 ml-[2px] "></div>
+         <div class="w-1 bg-green-400 h-1 ml-[2px] "></div>
+         <div class="w-1 bg-green-400 h-1 ml-[2px]"></div>
+         <div class="w-1 bg-green-400 h-1 ml-[2px]"></div>
+      </div>
+   </div>
+      <div class="flex  flex-col md:flex-row mt-10 items-center mx-auto  place-content-center font-mullish">
+       <div class="ml-16 mr-20 ">
+         <img src="saurav.png" class="w-[240px] rounded-xl">
+       </div>
+       <div class="mr-20 ml-16 flex flex-col">
+         <h1 class="text-2xl font-extralight xl:order-1">Ready Mode Closed Wallet</h1>
+         <h1 class="text-2xl font-extralight xl:order-1"> Solution For Quick Refunds </h1>
+         <a href="#" class="py-2 text-blue-400 xl:order-1  ">Lern More</a>
+         <h1 class="font-bold xl:order-1 -order-1 mt-1"> Lorem Ipsum</h1>
+         <p> CEO XYZ Engineering Company </p>
+       </div>
+       <div class=" ">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" class="w-[100px]" focusable="false" class="chakra-icon css-1dluisi"><circle cx="48" cy="48" r="48" fill="#F4F8FF" fill-opacity="0.7"/><g style="mix-blend-mode:multiply"><circle cx="48.0004" cy="48.0002" r="33.1034" fill="#F4F8FF" fill-opacity="0.7"/></g><g opacity="0.5"><g style="mix-blend-mode:multiply"><rect x="43.6523" y="33.1033" width="20.6022" height="7.89307" rx="2" transform="rotate(45.0165 43.6523 33.1033)" fill="#28365E"/></g><rect x="38.0713" y="56.6262" width="20.6022" height="7.89307" rx="2" transform="rotate(-44.6979 38.0713 56.6262)" fill="#102562"/></g></svg>
+       </div>
+      </div>
+      <div class=" mt-9 flex flex-row justify-center">
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-300 "></div>
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-500 ml-1"></div>
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-300 ml-1"></div>
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-300 ml-1"></div>
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-300 ml-1"></div>
+      <div class="h-[11px] w-[11px]  rounded-full bg-blue-300 ml-1"></div>
+      </div>
+    </section>
+
+    <!-- NEW -->
+
+ <section class="relative mt-11">
+  <div class="">
+   <svg xmlns="http://www.w3.org/2000/svg" width="1665px" height="564px" style="position: absolute;" viewBox="0 0 1665 564" class=" absolute" preserveAspectRatio="none"><defs><linearGradient x1="-18.3420118%" y1="24.122224%" x2="111.65494%" y2="-8.2958821%" id="bottomGradient-1"><stop stop-color="#0041B1" offset="0%"></stop><stop stop-color="#7EDEFF" offset="100%"></stop></linearGradient><linearGradient x1="75.6285722%" y1="-10.2668883%" x2="11.5003613%" y2="90.401303%" id="bottomGradient-2"><stop stop-color="#E9F1FF" offset="0%"></stop><stop stop-color="#EEF9FE" offset="100%"></stop></linearGradient></defs><polygon fill="#F4F8FF" transform="translate(832.500000, 316.000000) scale(-1, -1) translate(-832.500000, -316.000000)" points="0 400 1665 400 1665 365.491263 117.611298 564 0 494.825616"></polygon><path fill="url(#bottomGradient-1)" d="M1665,542.558298 L1665,214.293036 L1436.72423,184.912911 L0,0 L0,607.21087 L0,532.463904 L1547.3887,334 L1665,403.158761 L1665,542.558298 Z"></path></svg>
+  </div>
+   <br>
+   <br>
+   <br>
+   <div class="relative mt-10 flex flex-row items-center justify-center  mx-auto max-w-[1080px]">
+      <div class="font-mullish max-w-[650px]">
+         <h1 class="font-bold text-white text-2xl ">Super Charge Your Business With Rozorpay</h1>
+         <div class="w-6 h-1 bg-green-400"></div>
+         <p class=" text-white">Sign up now to experience the future of payments and offer<br>the best checkout experience</p>
+        <ul class="flex flex-row flex-wrap gap-x-11 py-3">
+         <li class="text-white font-mullish flex flex-row"><i data-feather="check" class="text-green-300"></i>
+         <span>Quick onboarding</span></li>
+         <li class="text-white font-mullish flex flex-row"><i data-feather="check" class="text-green-300"></i>
+         <span>Access to entire product suite
+         </span></li>
+         <li class="text-white font-mullish flex flex-row"><i data-feather="check" class="text-green-300"></i>
+         <span>API access</span></li>
+         <li class="text-white font-mullish flex flex-row mb-6 "><i data-feather="check" class="text-green-300 "></i>
+         <span>24x7 support</span></li>
+        </ul>
+        <button
+        class="relative bg-white text-blue-700 flex justify-start items-center  py-[15px] 
+pl-4 pr-16  md:pr[90px] md:px[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 ">Sine
+        UP
+        <div class="w-7 h-[60px] bg-green-400 absolute right-4 skew-x-[20deg] justify-center items-center">
+           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+              class="bi bi-arrow-right mt-5 pl-1" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+           </svg>
+           </svg>
+        </div>
+     </button>
+        </div>
+        <div class=" mt-5 hidden lg:block"> 
+       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="248" viewBox="0 0 360 338"><defs><linearGradient id="a" x1="0%" y1="50%" y2="50%"><stop offset="0%" stop-color="#F2F5F9"/><stop offset="100%" stop-color="#C6DFFE"/></linearGradient><linearGradient id="b" x1="56.55%" x2="43.6%" y1="68.36%" y2="37.99%"><stop offset="0%" stop-color="#77CDE6"/><stop offset="99.88%" stop-color="#0098E9"/></linearGradient><path id="d" d="M145.19 85.74L112 0 0 64.42l33.2 85.64z"/><filter id="c" width="116.5%" height="116%" x="-4.1%" y="-7.3%" filterUnits="objectBoundingBox"><feOffset dx="6" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/></filter><linearGradient id="e" x1="0%" y1="50%" y2="50%"><stop offset="0%" stop-color="#F2F5F9"/><stop offset="100%" stop-color="#C6DFFE"/></linearGradient><linearGradient id="f" x1="3.45%" y1="59.54%" y2="40.09%"><stop offset="0%" stop-color="#FF6B97"/><stop offset="100%" stop-color="#FFAF8C"/></linearGradient><path id="g" d="M103.04 38.94L15.2 89.5c-.76.43-1.57.12-1.87-.72L.09 53.02a2 2 0 0 1 .82-2.26L88.78.19c.75-.42 1.57-.12 1.87.72l13.2 35.76c.3.82-.09 1.84-.81 2.27z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#252B4F" fill-rule="nonzero" d="M357.52 220.06l-160.77 93.77L24.28 216l162.52-93.54z" opacity=".15"/><g fill-rule="nonzero"><path fill="#EAF1FA" d="M334.85 167.54l23.3 51.07a1.33 1.33 0 0 1-1.84 1.72l-39.87-21.05 16.58-24.81 1.83-6.93z"/><path fill="#EEF6FF" d="M332.62 168.59l20.4 45.47c.2.48-.31.93-.77.7l-41.89-22.14 17.18-22.98 5.08-1.05z"/><path fill="#C6DFFE" d="M331 169.1l6.34 3.5-5.35 9.22-5.48-2.86z"/><path fill="#C6DFFE" d="M312.12 190.3l38.99 20.74-15.93-35.49.23-.64 17.6 39.18c.21.48-.3.93-.76.7l-41.89-22.14 1.76-2.35z"/></g><path fill="url(#a)" fill-rule="nonzero" d="M239.7 150.25L183.79 5.85l2.78-3.2-6.29-2.02a5.41 5.41 0 0 0-5.2.12L2.93 99.84a5.42 5.42 0 0 0-2.36 6.66L41.9 213.06a6.48 6.48 0 0 1 2.7 3.26l5.62 14.5c.45 1.18.58 2.48.3 3.74l-.12.51 6.66 17.2a5.46 5.46 0 0 0 3.63 3.28l6.05 1.9.2-3.65 170.9-98.36a4.21 4.21 0 0 0 1.88-5.19z" transform="matrix(-1 0 0 1 359.94 0)"/><path fill="#FFF" fill-rule="nonzero" d="M350.62 102.76L177.58 3.2a5.46 5.46 0 0 0-7.8 2.74l-56.48 145.8a5.4 5.4 0 0 0 2.36 6.65l172.1 99.03a5.46 5.46 0 0 0 7.81-2.75l56.9-146.72a4.23 4.23 0 0 0-1.85-5.19z"/><path fill="url(#b)" fill-rule="nonzero" d="M228.91 140.21l-47.4-122.57-160.03 92.09L68.9 232.15z" transform="matrix(-1 0 0 1 359.94 0)"/><g fill-rule="nonzero" transform="matrix(-1 0 0 1 303.76 48.3)"><use fill="#000" filter="url(#c)" xlink:href="#d"/><use fill="#FFF" fill-rule="evenodd" xlink:href="#d"/></g><path fill="#E8F0FA" fill-rule="nonzero" d="M188.22 57.35l3.53-9.06 112.01 64.42-3.88 10.07z"/><path fill="#E8F0FA" fill-rule="nonzero" d="M188.22 57.35l3.53-9.06 112.01 64.42-3.88 10.07zm14.43 45.13l1.98-5.03 62.84 35.8-2.18 5.6zm12.99-11.93l49.23 28.29-2.73 7.07-49.12-28.76z"/><path fill="#FD6F8D" d="M296.77 117.28c.36-.02.68-.15.95-.42.28-.26.5-.61.66-1.07a3 3 0 0 0 .18-1.34 2.57 2.57 0 0 0-1.34-2.03 2.07 2.07 0 0 0-1.14-.3c-.36.02-.68.15-.95.41a3.34 3.34 0 0 0-.86 2.42c.01.44.15.82.38 1.17s.55.63.93.85c.43.25.82.33 1.19.31z"/><path fill="#08CA73" d="M290.72 113.83c.36-.02.68-.15.95-.41.28-.27.5-.62.66-1.08.16-.46.23-.9.19-1.34a2.57 2.57 0 0 0-1.35-2.03 2.07 2.07 0 0 0-1.14-.3c-.36.02-.68.15-.95.41a3.34 3.34 0 0 0-.86 2.42c.02.44.15.82.38 1.17s.55.64.93.86c.44.24.82.32 1.19.3z"/><path fill="#C6DFFE" fill-rule="nonzero" d="M328.06 183.24l-8.26 21.2c-.15.42-.64.57-1.03.36h-.03c-.3-.18-.42-.54-.3-.84l8.29-21.23a.7.7 0 0 1 1-.36c.33.18.45.54.33.87z"/><g fill-rule="nonzero"><path fill="#C6DFFE" d="M292.73 252.6l4.99-13.24-175.68-101.02-5.56 13.7a2.98 2.98 0 0 0 1.3 3.73l170.6 98.36c1.63.94 3.68.21 4.35-1.54z"/><path fill="url(#e)" d="M175.52 2.71L2.6 102.46l3.63 9.65a2.98 2.98 0 0 0 4.27 1.54L178.46 16.8a3 3 0 0 0 1.27-3.68l-4.2-10.4z" transform="matrix(-1 0 0 1 297.93 138.1)"/><path fill="#C6DFFE" d="M2.72 234.05l165.72 95.28a9.13 9.13 0 0 0 9.86-.5l117.82-85.25 1.6-4.25-176.89-97.1L2.4 227.96a3.65 3.65 0 0 0 .33 6.09z"/><path fill="#EEF6FF" d="M3.32 233.17l162 93.15a12.12 12.12 0 0 0 13.16-.7l119.24-86.26-175.68-101.02L2.9 224.58a5.11 5.11 0 0 0 .42 8.6z"/><path fill="#D8E3F8" d="M204.79 294.09l76.72-55.58-156.44-90.06-79.15 57.36zM71.74 263.12l36.87 21.2 26.35-19.1-36.87-21.19z"/></g><g fill-rule="nonzero"><path fill="#FFF" d="M327.15 275.96v4.62l-91.47 52.67v-4.61z"/><path fill="#C2C6D8" d="M323.16 273.64l3.99 2.32-91.47 52.68-4.02-2.3z"/><path fill="#A6ADCB" d="M323.16 273.64l.03.03c1.18-.66 3.02.33 4.14 2.23 1.12 1.9 1.03 4.01-.15 4.7-.06.04-.15.07-.21.1l-11.89 6.84c1.18-.7 1.24-2.77.12-4.7-1.12-1.9-2.96-2.93-4.14-2.23h-.03l12.13-6.97zm-91.5 52.71c-4 2.29-11.62 10.43-10.89 10.85.7.43 10.89-1.6 14.91-3.92 4.02-2.35-.03-9.25-4.02-6.93z"/><path fill="#8E97B9" d="M235.65 333.28c1.18-.69 1.24-2.77.15-4.7-1.09-1.93-2.96-2.9-4.14-2.23l2-1.18a6.03 6.03 0 0 1 3.17 2.8c.85 1.45 1.12 3 .85 4.14l-2.03 1.17z"/><path fill="#C2C6D8" d="M312.48 286.21v1c0 .48-.24.9-.67 1.15l-60.55 34.88a.44.44 0 0 1-.67-.39v-1c0-.48.25-.9.67-1.14l60.55-34.86c.28-.18.67.03.67.36z"/></g><use fill="url(#f)" fill-rule="nonzero" transform="matrix(-1 0 0 1 270.55 107.57)" xlink:href="#g"/><path fill="#FFF" d="M188.5 141.3a8.05 8.05 0 0 1-1.5-1.84l1.47-1.38a8.36 8.36 0 0 0 2.86 2.85c.56.33 1.02.5 1.37.53.36.02.58-.1.68-.39.09-.25.02-.54-.2-.86a8.2 8.2 0 0 0-1.35-1.39 12.29 12.29 0 0 1-1.96-2 3.89 3.89 0 0 1-.76-1.62c-.08-.5-.02-1 .16-1.54.21-.6.58-1.05 1.1-1.34a2.95 2.95 0 0 1 1.85-.28c.72.1 1.48.38 2.29.85.71.43 1.38.94 1.98 1.54.61.6 1.05 1.18 1.32 1.74l-1.46 1.38a8.23 8.23 0 0 0-1.14-1.53 6.39 6.39 0 0 0-1.37-1.1 2.4 2.4 0 0 0-1.25-.42c-.35.01-.58.17-.69.48a.74.74 0 0 0 .01.51c.06.18.22.4.46.67.24.27.62.64 1.14 1.1.84.72 1.47 1.38 1.89 1.96a4 4 0 0 1 .76 1.62c.09.5.04 1-.14 1.51-.34.98-.98 1.51-1.93 1.62-.95.1-2.1-.24-3.48-1.06a11.4 11.4 0 0 1-2.11-1.6zm7.95 4.92l3.47-9.97 2.63 1.56-3.47 9.97-2.63-1.56zm15.23 2.24l-1.74 5a8.7 8.7 0 0 1-1.98-.5c-.7-.26-1.4-.6-2.09-1a8.72 8.72 0 0 1-2.6-2.3 6.36 6.36 0 0 1-.91-5.98 4.7 4.7 0 0 1 1.57-2.3c.7-.52 1.51-.75 2.44-.7a6.4 6.4 0 0 1 2.96 1c.72.42 1.37.92 1.94 1.48.58.57 1 1.14 1.3 1.7l-1.48 1.37a8.35 8.35 0 0 0-1.1-1.43c-.37-.39-.8-.73-1.3-1.01-.88-.53-1.63-.67-2.23-.43-.61.24-1.1.88-1.45 1.9a4.16 4.16 0 0 0-.15 2.77 3.9 3.9 0 0 0 1.83 2.01c.44.26.9.48 1.36.64l.65-1.85-1.74-1.02.62-1.78 4.1 2.43zm9.62.46l2.48 1.47-3.47 9.97-1.95-1.16-2.55-8.33-1.97 5.66-2.45-1.46 3.47-9.96 1.92 1.13 2.56 8.31 1.96-5.63zm6.29 14.58a5.3 5.3 0 0 1 0-3.9l2.01-5.76 2.56 1.52-2.04 5.87a2.98 2.98 0 0 0-.1 1.93c.2.58.59 1.04 1.19 1.4.58.34 1.1.42 1.56.22.45-.2.8-.66 1.05-1.36l2.04-5.87 2.59 1.53-2.01 5.77c-.49 1.4-1.24 2.25-2.26 2.54-1.02.29-2.24.01-3.67-.83a6.66 6.66 0 0 1-2.92-3.06zm12.58-3.4l4.75 2.82a5.7 5.7 0 0 1 2.36 2.38c.43.92.49 1.85.16 2.78-.32.92-.9 1.47-1.72 1.65-.83.17-1.8-.07-2.92-.74l-2.11-1.25-1.36 3.9-2.63-1.57 3.47-9.97zm2.96 6.73c1 .58 1.61.52 1.85-.18.13-.35.1-.69-.07-1.01a2.69 2.69 0 0 0-1.03-.94l-1.77-1.05-.74 2.13 1.76 1.05z"/></g></svg>
+        </div> 
+    </div>
+ </section>
+  
+      <!-- NEW -->
+
+<section class="mt-40 md:px-[250px]">
+   
+   <div class="flex  flex-col md:flex-row justify-center ">
+    <!-- 1st DIV -->
+
+      <div class="flex flex-col  ">
+         <svg viewBox="0 0 1896 401" focusable="false" class="chakra-icon css-1xy62lf w-[150px]" xmlns="http://www.w3.org/2000/svg"><path fill="#3395FF" d="M122.63 105.7l-15.75 57.97 90.15-58.3-58.96 219.98 59.88.05L285.05.48"/><path d="M25.6 232.92L.8 325.4h122.73l50.22-188.13L25.6 232.92m426.32-81.42c-3 11.15-8.78 19.34-17.4 24.57-8.6 5.22-20.67 7.84-36.25 7.84h-49.5l17.38-64.8h49.5c15.56 0 26.25 2.6 32.05 7.9 5.8 5.3 7.2 13.4 4.22 24.6m51.25-1.4c6.3-23.4 3.7-41.4-7.82-54-11.5-12.5-31.68-18.8-60.48-18.8H324.4l-66.5 248.1h53.67l26.8-100h35.2c7.9 0 14.12 1.3 18.66 3.8 4.55 2.6 7.22 7.1 8.04 13.6l9.58 82.6h57.5l-9.32-77c-1.9-17.2-9.77-27.3-23.6-30.3 17.63-5.1 32.4-13.6 44.3-25.4a92.6 92.6 0 0 0 24.44-42.5m130.46 86.4c-4.5 16.8-11.4 29.5-20.73 38.4-9.34 8.9-20.5 13.3-33.52 13.3-13.26 0-22.25-4.3-27-13-4.76-8.7-4.92-21.3-.5-37.8 4.42-16.5 11.47-29.4 21.17-38.7 9.7-9.3 21.04-13.95 34.06-13.95 13 0 21.9 4.5 26.4 13.43 4.6 8.97 4.7 21.8.2 38.5zm23.52-87.8l-6.72 25.1c-2.9-9-8.53-16.2-16.85-21.6-8.34-5.3-18.66-8-30.97-8-15.1 0-29.6 3.9-43.5 11.7-13.9 7.8-26.1 18.8-36.5 33-10.4 14.2-18 30.3-22.9 48.4-4.8 18.2-5.8 34.1-2.9 47.9 3 13.9 9.3 24.5 19 31.9 9.8 7.5 22.3 11.2 37.6 11.2a82.4 82.4 0 0 0 35.2-7.7 82.11 82.11 0 0 0 28.4-21.2l-7 26.16h51.9L709.3 149h-52zm238.65 0H744.87l-10.55 39.4h87.82l-116.1 100.3-9.92 37h155.8l10.55-39.4h-94.1l117.88-101.8m142.4 52c-4.67 17.4-11.6 30.48-20.75 39-9.15 8.6-20.23 12.9-33.24 12.9-27.2 0-36.14-17.3-26.86-51.9 4.6-17.2 11.56-30.13 20.86-38.84 9.3-8.74 20.57-13.1 33.82-13.1 13 0 21.78 4.33 26.3 13.05 4.52 8.7 4.48 21.67-.13 38.87m30.38-80.83c-11.95-7.44-27.2-11.16-45.8-11.16-18.83 0-36.26 3.7-52.3 11.1a113.09 113.09 0 0 0-41 32.06c-11.3 13.9-19.43 30.2-24.42 48.8-4.9 18.53-5.5 34.8-1.7 48.73 3.8 13.9 11.8 24.6 23.8 32 12.1 7.46 27.5 11.17 46.4 11.17 18.6 0 35.9-3.74 51.8-11.18 15.9-7.48 29.5-18.1 40.8-32.1 11.3-13.94 19.4-30.2 24.4-48.8 5-18.6 5.6-34.84 1.8-48.8-3.8-13.9-11.7-24.6-23.6-32.05m185.1 40.8l13.3-48.1c-4.5-2.3-10.4-3.5-17.8-3.5-11.9 0-23.3 2.94-34.3 8.9-9.46 5.06-17.5 12.2-24.3 21.14l6.9-25.9-15.07.06h-37l-47.7 176.7h52.63l24.75-92.37c3.6-13.43 10.08-24 19.43-31.5 9.3-7.53 20.9-11.3 34.9-11.3 8.6 0 16.6 1.97 24.2 5.9m146.5 41.1c-4.5 16.5-11.3 29.1-20.6 37.8-9.3 8.74-20.5 13.1-33.5 13.1s-21.9-4.4-26.6-13.2c-4.8-8.85-4.9-21.6-.4-38.36 4.5-16.75 11.4-29.6 20.9-38.5 9.5-8.97 20.7-13.45 33.7-13.45 12.8 0 21.4 4.6 26 13.9 4.6 9.3 4.7 22.2.28 38.7m36.8-81.4c-9.75-7.8-22.2-11.7-37.3-11.7-13.23 0-25.84 3-37.8 9.06-11.95 6.05-21.65 14.3-29.1 24.74l.18-1.2 8.83-28.1h-51.4l-13.1 48.9-.4 1.7-54 201.44h52.7l27.2-101.4c2.7 9.02 8.2 16.1 16.6 21.22 8.4 5.1 18.77 7.63 31.1 7.63 15.3 0 29.9-3.7 43.75-11.1 13.9-7.42 25.9-18.1 36.1-31.9 10.2-13.8 17.77-29.8 22.6-47.9 4.9-18.13 5.9-34.3 3.1-48.45-2.85-14.17-9.16-25.14-18.9-32.9m174.65 80.65c-4.5 16.7-11.4 29.5-20.7 38.3-9.3 8.86-20.5 13.27-33.5 13.27-13.3 0-22.3-4.3-27-13-4.8-8.7-4.9-21.3-.5-37.8 4.4-16.5 11.42-29.4 21.12-38.7 9.7-9.3 21.05-13.94 34.07-13.94 13 0 21.8 4.5 26.4 13.4 4.6 8.93 4.63 21.76.15 38.5zm23.5-87.85l-6.73 25.1c-2.9-9.05-8.5-16.25-16.8-21.6-8.4-5.34-18.7-8-31-8-15.1 0-29.68 3.9-43.6 11.7-13.9 7.8-26.1 18.74-36.5 32.9-10.4 14.16-18 30.3-22.9 48.4-4.85 18.17-5.8 34.1-2.9 47.96 2.93 13.8 9.24 24.46 19 31.9 9.74 7.4 22.3 11.14 37.6 11.14 12.3 0 24.05-2.56 35.2-7.7a82.3 82.3 0 0 0 28.33-21.23l-7 26.18h51.9l47.38-176.7h-51.9zm269.87.06l.03-.05h-31.9c-1.02 0-1.92.05-2.85.07h-16.55l-8.5 11.8-2.1 2.8-.9 1.4-67.25 93.68-13.9-109.7h-55.08l27.9 166.7-61.6 85.3h54.9l14.9-21.13c.42-.62.8-1.14 1.3-1.8l17.4-24.7.5-.7 77.93-110.5 65.7-93 .1-.06h-.03z"/></svg>
+         <p class="font-mullish opacity-90 mt-3 py-2
+          ">Razorpay is the only payments solution in India that allows businesses to accept, process and disburse payments with its product suite. It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.</p>
+         <p class="font-mullish opacity-90 mt-3 py-2 ">RazorpayX supercharges your business banking experience, bringing effectiveness, efficiency, and excellence to all financial processes. With RazorpayX, businesses can get access to fully-functional current accounts, supercharge their payouts and automate payroll compliance.</p>
+         <p class="font-mullish opacity-90 mt-3 py-2">Manage your marketplace, automate bank transfers, collect recurring payments, share invoices with customers and avail working capital loans - all from a single platform. Fast forward your business with Razorpay</p>
+         <p class="font-mullish opacity-90 mt-3 text-[11px] py-2">Disclaimer: The RazorpayX powered Current Account and VISA corporate credit card are provided by RBI licensed banks. Your RazorpayX powered account is provided by our partner bank, in accordance with RBI regulations. RazorpayX itself is not a bank and doesn't hold or claim to hold a banking license.</p>
+      <div class="flex flex-row mt-4">
+         <img src="iso-certified.4fd701ec.jpg" class="mr-4">
+         <img src="asset 59.png">
+      </div>
+   </div>
+
+  <!-- 2nd Div -->
+
+      <div class=" font-mullish ml-6">
+         <h1 class="py-3 font-bold"> BANKING PLUS</h1>
+         <ul class="font-mullish">
+            <li class="text-blue-500 mt-2">RazorpayX</li>
+            <li class="text-blue-500 mt-2"><span>Current Accounts</span></li>
+            <li class="text-blue-500 mt-2"><span>Payouts</span></li>
+            <li class="text-blue-500 mt-2"><span>Payout Links </span></li>
+            <li class="text-blue-500 mt-2"><span> Corporate Credit Card </span></li>
+            <li class="text-blue-500 mt-2"><span> View Live Demo </span></li>
+         </ul>
+         <h1 class="py-3 font-bold">LENDING </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Razorpay Capital </span></li>
+            <li class="text-blue-500 mt-2"><span> Instant Settlement </span>
+            </li>
+            <li class="text-blue-500 mt-2"><span>Line of Cradit </span></li>
+            <li class="text-blue-500 mt-2"><span> Working Capital Loans </span></li>
+            <li class="text-blue-500 mt-2"><span> Marketplace Instant Settlements </span></li>
+         </ul>
+         <h1 class="py-3 font-bold"> BECOME A PARTNER </h1>
+         <ul>
+         <li class="text-blue-500 mt-2"><span> Refer and Earn </span></li>
+         <li class="text-blue-500 mt-2"><span> Onboarding APIs</span></li>
+         </ul>
+         <h1 class="py-3 font-bold"> MORE </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Route  Invoice </span></li>
+            <li class="text-blue-500 mt-2"><span> Freelancer Payment </span></li>
+            <li class="text-blue-500 mt-2"><span> International </span></li>
+           <li class="text-blue-500 mt-2"><span> Flash Checkout </span></li>
+           <!-- <li class="text-blue-500 mt-2"><span>UPI</span></li>
+           <li class="text-blue-500 mt-2"><span>ePOS</span></li>
+           <li class="text-blue-500 mt-2"><span>Checkout Demo</span></li>
+           <li class="text-blue-500 mt-2"><span>RazorpayX Payroll </span></li> -->
+         </ul>
+      </div>
+
+   <!-- 3rd Div -->
+
+      <div class="mr-24 ml-6">
+         <h1 class="py-3 font-bold">ACCEPT PAYMENT </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"> <span>Payment Gatway</span></li>
+            <li class="text-blue-500 mt-2"><span> Payment Pages </span></li>
+            <li class="text-blue-500 mt-2"><span> Payment Link </span></li>
+            <li class="text-blue-500 mt-2"><span> QR Coad </span></li>
+            <li class="text-blue-500 mt-2"><span>Subscriptions  </span></li>
+            <li class="text-blue-500 mt-2"><span> Smart Collect </span></li>
+         </ul>
+         <h1 class="py-3 font-bold">DEVELOPER </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Docs </span></li>
+            <li class="text-blue-500 mt-2"><span>Integrations </span></li>
+            <li class="text-blue-500 mt-2"><span> API Reference </span></li>
+         </ul>
+         <h1 class="py-3 font-bold">RESOURCE </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Blog </span></li>
+            <li class="text-blue-500 mt-2"><span> Customer</span></li>
+            <li class="text-blue-500 mt-2"><span>Chargeback Guid </span></li>
+            <li class="text-blue-500 mt-2"><span>Settlement Guid </span></li>
+         </ul>
+         <h1 class="py-3 font-bold"> Solution </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Education </span></li>
+            <li class="text-blue-500 mt-2"><span> E-commerce </span></li>
+            <li class="text-blue-500 mt-2"><span> SaaS</span></li>
+            <li class="text-blue-500 mt-2"><span>BFSi</span></li>
+         </ul>
+         <h1 class="py-3 font-bold"> FREE TOOLS  </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span> GST Calculator </span></li>
+            <li class="text-blue-500 mt-2"><span> Online TDS Payment </span></li>
+            <li class="text-blue-500 mt-2"><span>GST Number search </span></li>
+         </ul>
+      </div>
+      <div>
+         <h1 class="py-3 font-bold"> COMPANY </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><a href=""></a> About Us </li>
+            <li class="text-blue-500 mt-2"><a href=""> Careers  Terms of Use </a></li>
+            <li class="text-blue-500 mt-2"><a href="">Privacy Policy </a></li>
+            <li class="text-blue-500 mt-2"><a href="">Partners </a></li>
+            <li class="text-blue-500 mt-2"><a href=""> White papers </a></li>
+         </ul>
+         <h1 class="py-3 font-bold">HELP AND SUPPORT </h1>
+         <ul>
+            <li class="text-blue-500 mt-2"><span>Support </span></li>
+            <li class="text-blue-500 mt-2"><span>Knowledge base </span></li>
+         </ul>
+         <div>
+            <h1 class="py-3 font-bold"> FIND US ONLINE </h1>
+            <div class="mt-2 flex flex-row ">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="mr-2" viewBox="0 0 24 24"><path fill="#39579A" fill-rule="evenodd" d="M0 3.99C0 1.79 1.78 0 3.99 0h16.02C22.21 0 24 1.78 24 3.99v16.02c0 2.2-1.78 3.99-3.99 3.99H3.99A3.99 3.99 0 0 1 0 20.01V3.99zm20 .15C19.66 4.1 18.47 4 17.1 4c-2.88 0-4.85 1.66-4.85 4.7v2.62H9v3.56h3.25V24h3.9v-9.12h3.23l.5-3.56h-3.74V9.05c0-1.02.3-1.73 1.86-1.73h2V4.14z"/></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#171515" fill-rule="evenodd" d="M0 3.99C0 1.79 1.78 0 3.99 0h16.02C22.21 0 24 1.78 24 3.99v16.02c0 2.2-1.78 3.99-3.99 3.99H3.99A3.99 3.99 0 0 1 0 20.01V3.99zm21.5 8.25c0 4.3-2.73 7.95-6.5 9.24-.48.1-.64-.2-.64-.47l.02-2.67c0-.9-.32-1.5-.65-1.8 2.11-.25 4.34-1.07 4.34-4.82 0-1.06-.37-1.92-.99-2.6.1-.25.43-1.24-.09-2.59-.8-.24-2.61 1.01-2.61 1.01A8.24 8.24 0 0 0 12 7.22c-.82 0-1.61.1-2.38.32 0 0-1.81-1.25-2.61-1a3.62 3.62 0 0 0-.1 2.58 3.78 3.78 0 0 0-.98 2.6c0 3.73 2.23 4.57 4.34 4.82-.27.24-.52.68-.6 1.3-.55.26-1.94.7-2.77-.8-.52-.94-1.45-1.02-1.45-1.02-.93 0-.07.61-.07.61.63.29 1.05 1.41 1.05 1.41.56 1.75 3.2 1.16 3.2 1.16l.01 1.8c0 .27-.16.58-.65.48a9.74 9.74 0 0 1-6.49-9.24A9.62 9.62 0 0 1 12 2.5c5.25 0 9.5 4.36 9.5 9.74z"/></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ml-2" viewBox="0 0 24 24"><path fill="#00ABF0" fill-rule="evenodd" d="M0 3.99C0 1.79 1.78 0 3.99 0h16.02C22.21 0 24 1.78 24 3.99v16.02c0 2.2-1.78 3.99-3.99 3.99H3.99A3.99 3.99 0 0 1 0 20.01V3.99zm19.5 3.42c-.56.25-1.14.4-1.77.5a3.07 3.07 0 0 0 1.36-1.7c-.6.35-1.26.61-1.96.74A3.07 3.07 0 0 0 14.89 6a3.05 3.05 0 0 0-3 3.72 8.79 8.79 0 0 1-6.36-3.17 3.04 3.04 0 0 0 .9 4.05c-.5-.01-1-.16-1.46-.37v.02a3.1 3.1 0 0 0 2.53 2.98 2.6 2.6 0 0 1-.74.11c-.2 0-.38-.03-.58-.06a3.09 3.09 0 0 0 2.88 2.1 6.26 6.26 0 0 1-4.56 1.26A8.87 8.87 0 0 0 9.22 18a8.63 8.63 0 0 0 8.76-8.63c0-.12 0-.25-.02-.38.6-.42 1.13-.96 1.54-1.58z"/></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="ml-2" viewBox="0 0 24 24"><path fill="#E22470" fill-rule="evenodd" d="M0 3.99C0 1.79 1.78 0 3.99 0h16.02C22.21 0 24 1.78 24 3.99v16.02c0 2.2-1.78 3.99-3.99 3.99H3.99A3.99 3.99 0 0 1 0 20.01V3.99zM20.57 12c0-1.18.01-2.35-.05-3.54a5.1 5.1 0 0 0-1.39-3.59 5.1 5.1 0 0 0-3.59-1.38c-1.18-.07-2.35-.06-3.54-.06-1.18 0-2.35-.01-3.54.06a5.1 5.1 0 0 0-3.59 1.38 5.1 5.1 0 0 0-1.38 3.6c-.07 1.18-.06 2.35-.06 3.53 0 1.19-.01 2.36.06 3.54a5.1 5.1 0 0 0 1.38 3.6c1 1 2.22 1.31 3.6 1.38 1.18.06 2.35.05 3.53.05 1.19 0 2.36.01 3.54-.05a5.1 5.1 0 0 0 3.6-1.39c1-1 1.31-2.22 1.38-3.59.06-1.18.05-2.35.05-3.54zM12 4.97c1.25 0 3.93-.1 5.06.35.39.15.68.34.98.64.3.3.5.6.65.99.44 1.12.34 3.8.34 5.05s.1 3.93-.34 5.06a2.8 2.8 0 0 1-.65.98c-.3.3-.6.5-.98.65-1.13.44-3.8.34-5.06.34-1.25 0-3.93.1-5.05-.34a2.84 2.84 0 0 1-1.63-1.63c-.45-1.13-.35-3.8-.35-5.06 0-1.25-.1-3.93.35-5.05.15-.4.34-.68.64-.99.3-.3.6-.49.99-.64 1.12-.45 3.8-.35 5.05-.35zM16.4 12a4.4 4.4 0 1 0-8.78 0 4.4 4.4 0 0 0 8.78 0zm1.2-4.57a1.02 1.02 0 0 0-2.05 0c0 .57.46 1.02 1.03 1.02.57 0 1.02-.45 1.02-1.02zM14.86 12a2.86 2.86 0 0 1-5.72 0 2.86 2.86 0 0 1 5.72 0z"/></svg>
+            </div>
+            <h1 class="py-3 font-bold"> REGID OFFICE ADDRESS </h1>
+         </div>
+         <ul font-mullish opacity-90>
+            <li class="mt-1"><span>Razorpay Software Private Limited</span></li>
+            <li class="mt-1"><span>1st Floor, SJR Cyber,</span></li>
+            <li> class="mt-1"<span>22 Laskar Hosur Road, Adugodi,</span></li>
+            <li class="mt-1"><span>Bengaluru, 560030,</span></li>
+            <li class="mt-1"><span>Karnataka, India</span></li>
+            <li class="mt-1"><span>CIN: U72200KA2013PTC097389</span></li>
+         
+         </ul>
+         <br>
+         <ul>
+            <li class="font-mullish opacity-90 mt-1"><span>© Razorpay 2023</span></li>
+            <li class="mt-1 font-mullish opacity-90"><span> All Rights Reserved</span></li>
+         </ul>
+      </div>
+   </div>
+</section>
+   <script>
+      feather.replace()
+   </script>
+ </div>
+</body>
+</html>
